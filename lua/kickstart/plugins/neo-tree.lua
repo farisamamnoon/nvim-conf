@@ -12,7 +12,7 @@ return {
   lazy = false,
   cmd = 'Neotree', -- lazy-load ONLY when command is used
   keys = {
-    { '<leader>e', '<cmd>Neotree toggle<cr>', desc = 'Toggle Neo-tree' },
+    { '<leader>e', '<cmd>Neotree toggle position=right<cr>', desc = 'Toggle Neo-tree' },
   },
   config = function()
     require('neo-tree').setup {
