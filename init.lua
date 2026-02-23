@@ -509,6 +509,7 @@ require('lazy').setup({
       },
     },
   },
+  { 'saghen/blink.compat', version = '2.*' },
   {
     -- Main LSP Configuration
     'neovim/nvim-lspconfig',
@@ -1016,6 +1017,7 @@ require('lazy').setup({
   require 'kickstart.plugins.lint',
   require 'kickstart.plugins.autopairs',
   require 'kickstart.plugins.neo-tree',
+  require 'kickstart.plugins._99',
   require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
